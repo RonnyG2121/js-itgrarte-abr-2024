@@ -36,6 +36,10 @@ h1 {
   margin: 2.04225rem 0;
 }
 
+span {
+  display: block;
+}
+
 h2 {
   font-size: 2.042rem;
   line-height: 1.571rem;
@@ -113,7 +117,7 @@ hr {
   border-top: 0.3rem solid;
 }
 
-a[role="button"] {
+a[role="menuitem"] {
   font-weight: 500;
   font-size: 1.292rem;
   line-height: 1.645rem;
@@ -125,14 +129,13 @@ a[role="button"] {
   transition: background-color .15s ease-in-out;
 }
 
-a[role="button"]:hover,
-a[role="button"]:focus {
+a[role="menuitem"]:hover,
+a[role="menuitem"]:focus {
   background-color: #616161;
   cursor: pointer;
-
 }
 
-a[role="button"]:active {
+a[role="menuitem"]:active {
   background-color: #424242;
 }
 
@@ -156,7 +159,6 @@ img {
   margin: 0 auto;
   text-align: center;
   padding: 20px;
-
 }
 
 .logo img {
@@ -188,6 +190,4 @@ footer {
   width: 100%;
   color: #ffffff;
   margin-top: auto;
-
-
 }
