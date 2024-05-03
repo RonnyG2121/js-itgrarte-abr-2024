@@ -110,6 +110,8 @@ ul,
 ol {
   padding: 0 0 0 1.7rem;
   list-style-type: disc;
+  line-height: 1.5;
+
 }
 
 hr {
