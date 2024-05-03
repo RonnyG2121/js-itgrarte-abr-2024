@@ -2,4 +2,4 @@
 
 **Todos los detalles estarán en la página del curso**
 
-[Visita la página del curso](https://ronnyg2121.github.io/js-itgrarte-abr-2024/)
+[Visita la página del curso](https://ronnyg2121.github.io/js-itgrarte-may-2024/)

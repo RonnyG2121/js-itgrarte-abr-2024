@@ -32,7 +32,7 @@ h6 {
 
 h1 {
   font-size: 2.625rem;
-  line-height: 1.556rem;
+  line-height: 1.5;
   margin: 2.04225rem 0;
 }
 
@@ -117,7 +117,8 @@ hr {
   border-top: 0.3rem solid;
 }
 
-a[role="menuitem"] {
+a[role="menuitem"],
+a[role="button"] {
   font-weight: 500;
   font-size: 1.292rem;
   line-height: 1.645rem;
@@ -130,12 +131,15 @@ a[role="menuitem"] {
 }
 
 a[role="menuitem"]:hover,
-a[role="menuitem"]:focus {
+a[role="button"]:hover,
+a[role="menuitem"]:focus,
+a[role="button"]:focus {
   background-color: #616161;
   cursor: pointer;
 }
 
-a[role="menuitem"]:active {
+a[role="menuitem"]:active,
+a[role="button"]:active {
   background-color: #424242;
 }
 
