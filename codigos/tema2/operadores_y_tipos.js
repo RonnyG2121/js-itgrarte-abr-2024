@@ -36,6 +36,6 @@ console.log(num1 > num2);
 console.log(num1 < num2);
 
 // Uso de los arrays
-let arleglo = ["juan", 25, {}, true];
+let arreglo = ["juan", 25, {}, true];
 console.log(arreglo);
 
