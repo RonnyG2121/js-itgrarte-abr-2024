@@ -39,3 +39,9 @@ console.log(num1 < num2);
 let arreglo = ["juan", 25, {}, true];
 console.log(arreglo);
 
+
+
+// Uso de la potencia
+let p1 = 5;
+let p2 = 2;
+console.log(p1 ** p2);
